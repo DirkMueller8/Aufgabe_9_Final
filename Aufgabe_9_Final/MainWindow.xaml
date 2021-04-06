@@ -10,7 +10,7 @@
 
     <TextBox x:Name="txtInputRoman" HorizontalAlignment="Left" Margin="150,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="txtInputRoman_MouseEnter"/>
     <Label x:Name="label" Content="This program converts roman numbers into arabic numbers" HorizontalAlignment="Left" Margin="28,34,0,0" VerticalAlignment="Top"/>
-    <TextBox x:Name="txtOutputArabic" HorizontalAlignment="Left" Margin="150,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox x:Name="txtOutputArabic" IsReadOnly="True" HorizontalAlignment="Left" Margin="150,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     <Button x:Name="btnConvert" Content="Convert" HorizontalAlignment="Left" Margin="288,85,0,0" VerticalAlignment="Top" Click="btnConvert_Click"/>
     <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="42,162,0,0" VerticalAlignment="Top"/>
     <Label x:Name="lblRoman" Content="Give roman number" HorizontalAlignment="Left" Margin="32,82,0,0" VerticalAlignment="Top"/>
